@@ -1,0 +1,9 @@
+{
+  "name": "aframe-gltf",
+  "scripts": {
+    "build": "uglifyjs src/GLTFLoader.js src/aframe-gltf.js --compress --mangle -o dist/aframe-gltf.js"
+  },
+  "devDependencies": {
+    "uglify-js": "^3.0.25"
+  }
+}
